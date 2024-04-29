@@ -33,4 +33,12 @@ public class ArrayMethods {
 			System.out.println(x + " is not found in array");
 		}
 	}
+	public static int[] reverseArray(int arr[]) {
+		int reverseArr[] = new int[arr.length]; 
+		
+		for(int i = arr.length-1; i >=0; i--) {
+			reverseArr[arr.length - i-1] = arr[i];
+		}
+		return reverseArr;
+	}
 }
