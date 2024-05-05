@@ -37,5 +37,6 @@ public class UserInputArray {
 		printArray(arr);
 		System.out.println("duplicate arr2");
 		printArray(arr2);
+		sc.close();
 	}
 }
