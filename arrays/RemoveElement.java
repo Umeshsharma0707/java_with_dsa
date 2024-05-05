@@ -1,6 +1,6 @@
 package arrays;
 
-import java.lang.reflect.Array;
+
 import java.util.Scanner;
 
 public class RemoveElement {
@@ -32,6 +32,6 @@ public class RemoveElement {
 		System.out.println("array after removing " + element );
 		ArrayMethods.printArray(ans);
 		
-		
+		sc.close();
 	}
 }	

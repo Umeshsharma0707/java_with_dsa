@@ -22,5 +22,6 @@ public class ReverseArrayUsingSwap {
 		}
 		
 		ArrayMethods.printArray(arr);
+		sc.close();
 	}
 }
