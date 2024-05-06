@@ -25,6 +25,6 @@ public class FindElementInArray {
 		int findElement = sc.nextInt();
 		
 		FindElement(findElement, arr);
-		
+		sc.close();
 	}
 }

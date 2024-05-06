@@ -9,6 +9,7 @@ public class CountOccurenceOfEleInArray {
 			System.out.println("enter " + (i+1) + " th element : ");
 			arr[i] = sc.nextInt();
 		}
+		sc.close();
 	}
 	public static void main(String[] args) {
 		
