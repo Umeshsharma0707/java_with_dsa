@@ -34,5 +34,6 @@ public class FindUniqueNum {
 		}else {
 			System.out.println("no unique number is found");
 		}
+		sc.close();
 	}
 }

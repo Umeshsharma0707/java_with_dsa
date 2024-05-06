@@ -32,7 +32,7 @@ public class SortZeroOnesArrayUsingPointers {
 		ArrayMethods.InputUserArray(arr, size);
 		ArrayMethods.printArray(arr);
 		sortZerosAndOnes(arr);
-		
+		sc.close();
 	
 	}
 }

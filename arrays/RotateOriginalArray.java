@@ -35,5 +35,6 @@ public class RotateOriginalArray {
 //		ArrayMethods.printArray(arr);
 		reverseToStartEndPoints(arr,0,n-1);
 		ArrayMethods.printArray(arr);
+		sc.close();
 	}
 }

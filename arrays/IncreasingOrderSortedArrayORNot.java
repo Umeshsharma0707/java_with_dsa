@@ -33,5 +33,6 @@ public class IncreasingOrderSortedArrayORNot {
 		}else {
 			System.out.println("array is not sorted");
 		}
+		sc.close();
 	}
 }
