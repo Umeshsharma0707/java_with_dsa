@@ -29,6 +29,7 @@ public class CopyArray {
 		UserInputArray.printArray(a);
 		System.out.println("clone array");
 		UserInputArray.printArray(cloneArr);
-
+		
 	}
+	
 }

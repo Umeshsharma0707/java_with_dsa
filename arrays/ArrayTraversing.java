@@ -40,6 +40,6 @@ public class ArrayTraversing {
 			}
 			System.out.println();
 		}
-		
+		sc.close();
 	}
 }

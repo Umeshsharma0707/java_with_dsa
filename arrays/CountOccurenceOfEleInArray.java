@@ -31,5 +31,6 @@ public class CountOccurenceOfEleInArray {
 			}
 		}
 		System.out.println("no of occurence of "+ x + " : is = " + count);
+		sc.close();
 	}
 }
