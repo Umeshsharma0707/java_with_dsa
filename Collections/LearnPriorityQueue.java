@@ -9,6 +9,7 @@ public class LearnPriorityQueue {
 		
 		Queue<Integer> pq = new PriorityQueue<Integer>(Comparator.reverseOrder());
 		// offer to add element in priority queue
+		// give priority to smallest element or largest element
 		pq.offer(100);
 		pq.offer(20);
 		pq.offer(30);
