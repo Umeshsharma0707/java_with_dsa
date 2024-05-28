@@ -26,3 +26,5 @@ public class CollectionsClass {
 		System.out.println(list);
 	}
 }
+
+
