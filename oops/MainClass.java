@@ -9,6 +9,11 @@ class AC{
 		counter++;
 		System.out.println("creating an object of ac");
 	}
+	AC(String name, int price){
+		this();
+		this.name = name;
+		this.price = price;
+	}
 	
 	void turnON() {
 		System.out.println("Ac is turned On");
@@ -24,10 +29,10 @@ class AC{
 
 public class MainClass {
 	public static void main(String[] args) {
-		AC ac = new AC();
+		AC ac = new AC("LG ac 1.5 ton", 35000);
 		AC ac1 = new AC();
-		ac.price = 21000;
-		ac.name = "Hitachi";
+		ac1.price = 21000;
+		ac1.name = "Hitachi";
 		
 		System.out.println(ac.name + " " + ac.price);
 		
