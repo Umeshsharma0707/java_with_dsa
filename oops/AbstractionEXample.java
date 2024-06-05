@@ -6,6 +6,9 @@ abstract class Car{
 	
 	abstract void start();
 	
+	void brake() {
+		System.out.println("car is stopping");
+	}
 }
 
 class Audi extends Car{
